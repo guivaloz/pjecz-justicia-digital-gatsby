@@ -30,7 +30,7 @@ const IndexPage = () => {
             <div className="card-body">
               <h2 className="card-title">Plataforma Web</h2>
               <p className="card-text">
-                Para administrar y consultar lo que se publica en{" "}
+                Consulte y administre lo que se publica en{" "}
                 <a
                   className="text-white"
                   href="https://www.pjecz.gob.mx/"
@@ -38,7 +38,8 @@ const IndexPage = () => {
                   rel="noreferrer"
                 >
                   www.pjecz.gob.mx
-                </a>
+                </a><br />
+                Para ingresar necesita una cuenta registrada de Google o Microsoft. No usa contraseñas.
               </p>
               <div className="btn-group">
                 <a
@@ -63,7 +64,8 @@ const IndexPage = () => {
             <div className="card-body">
               <h2 className="card-title">API OAuth2</h2>
               <p className="card-text">
-                Para que su aplicación obtenga la información de forma directa.
+                Haga que su aplicación obtenga la información de forma directa.<br />
+                Llene la solicitud de registro para obtener una cuenta de usuario y contraseña.
               </p>
               <div className="btn-group">
                 <a

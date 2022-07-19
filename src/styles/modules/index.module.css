@@ -1,4 +1,4 @@
 .bg-card {
-  background-color: rgba(0, 67, 96, 0.8);
-  border-radius: 0;
+  background-color: rgba(0, 67, 96, 0.8) !important;
+  border-radius: 0 !important;
 }
