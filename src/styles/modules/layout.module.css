@@ -1,0 +1,7 @@
+.bg-page {
+  background: linear-gradient(rgb(0, 67, 96) 0%, rgb(0, 36, 52) 100%),
+    rgb(39, 39, 39);
+  background-attachment: fixed !important;
+  background-size: contain !important;
+  min-height: 100vh;
+}

@@ -1,0 +1,14 @@
+# Not upload this directories
+.cache/
+.git
+node_modules/
+src/
+
+# Not upload this files
+.bashrc
+.gitignore
+.gcloudignore
+gatsby-browser.js
+gatsby-config.js
+package-lock.json
+package.json
