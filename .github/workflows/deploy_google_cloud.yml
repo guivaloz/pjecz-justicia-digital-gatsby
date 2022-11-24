@@ -1,0 +1,19 @@
+name: Deploy on Google Cloud
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+
+  deploy-google-cloud:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Deploy
+        id: deploy
+        uses: google-github-actions/deploy-appengine@main
+        with:
+          credentials: ${{ secrets.GCP_SA_KEY }}
