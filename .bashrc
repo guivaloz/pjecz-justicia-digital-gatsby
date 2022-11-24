@@ -1,1 +1,0 @@
-# pjecz-justicia-digital-gatsby
